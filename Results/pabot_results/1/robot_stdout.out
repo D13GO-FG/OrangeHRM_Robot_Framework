@@ -1,0 +1,47 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.TC2 FilloutContactDetails                                              
+==============================================================================
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\TestCases\TC2_FilloutContactDetails.robot:6
+      Successuful Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\Resources\LoginKeywords.robot:29
+      Open My Browser    https://opensource-demo.orangehrmlive.com/web/index.php/auth/login    edge
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\Resources\LoginKeywords.robot:8
+      Open Browser    ${siteUrl}    ${Browser}
+      |  ${siteUrl} = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login (str)
+      |  ${Browser} = edge (str)
+______________________________________________________________________________
+Fill out Form New Contact                                             | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywords.Open My Browser
+------------------------------------------------------------------------------
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\TestCases\TC2_FilloutContactDetails.robot:7
+      Close My Browsers    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\Resources\LoginKeywords.robot:35
+      Close All Browsers    
+______________________________________________________________________________
+Suites.TC2 FilloutContactDetails                                      | FAIL |
+Suite setup failed:
+No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywords.Open My Browser
+
+Also suite teardown failed:
+No keyword with name 'Close All Browsers' found.
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  D:\2022\pythonProject\OrangeHRM_Robot_Framework\Results\pabot_results\1\output.xml

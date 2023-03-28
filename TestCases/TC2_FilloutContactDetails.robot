@@ -13,7 +13,7 @@ Fill out Form New Contact
     Click Contact Details
     Fill Out Form Address       Arbol     Pino      Bosque      Verde      12345
     Fill Out Form Telephone     123123123     123123123
-    Fill Out Form Email         admin@example.com   planta@example.com
+    Fill Out Form Email         verde@example.com   planta@example.com
     Sleep    2
     Click Save Contact
     Verify Success Message

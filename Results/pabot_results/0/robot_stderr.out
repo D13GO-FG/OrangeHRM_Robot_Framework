@@ -1,0 +1,20 @@
+[ ERROR ] Error in file 'D:\2022\pythonProject\OrangeHRM_Robot_Framework\TestCases\TC1_LoginTest.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python311\Scripts\robot.exe
+  C:\Python311\python311.zip
+  C:\Python311\Lib
+  C:\Python311\DLLs
+  C:\Python311
+  C:\Python311\Lib\site-packages
+[ ERROR ] Error in file 'D:\2022\pythonProject\OrangeHRM_Robot_Framework\Resources\LoginKeywords.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python311\Scripts\robot.exe
+  C:\Python311\python311.zip
+  C:\Python311\Lib
+  C:\Python311\DLLs
+  C:\Python311
+  C:\Python311\Lib\site-packages

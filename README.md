@@ -46,3 +46,9 @@ Expected result:
     Verify Pop Up with Success Message
 
 ---
+
+How to run Test Suites
+Approach 1) robot TestCases\
+Approach 2) robot TestCases\*.robot
+Approach 3) pabot --processes 2 --outputdir Results TestCases\*.robot
+Approach 4) run.bat

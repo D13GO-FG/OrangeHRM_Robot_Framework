@@ -1,0 +1,46 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.TC1 LoginTest                                                          
+==============================================================================
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\TestCases\TC1_LoginTest.robot:4
+      Open My Browser    ${siteUrl}    ${browser}
+      |  ${siteUrl} = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login (str)
+      |  ${browser} = edge (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\Resources\LoginKeywords.robot:8
+      Open Browser    ${siteUrl}    ${Browser}
+      |  ${siteUrl} = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login (str)
+      |  ${Browser} = edge (str)
+______________________________________________________________________________
+Login Test                                                            | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywords.Open My Browser
+------------------------------------------------------------------------------
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\TestCases\TC1_LoginTest.robot:5
+      Close My Browsers    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\2022\pythonProject\OrangeHRM_Robot_Framework\Resources\LoginKeywords.robot:35
+      Close All Browsers    
+______________________________________________________________________________
+Suites.TC1 LoginTest                                                  | FAIL |
+Suite setup failed:
+No keyword with name 'Open Browser' found. Did you mean:
+    LoginKeywords.Open My Browser
+
+Also suite teardown failed:
+No keyword with name 'Close All Browsers' found.
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  D:\2022\pythonProject\OrangeHRM_Robot_Framework\Results\pabot_results\0\output.xml
